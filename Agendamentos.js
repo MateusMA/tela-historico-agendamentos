@@ -19,6 +19,8 @@ const Agendamentos = (props) => {
         )
     }
 
+    // ******** AVISO ********
+    // É necessário alterar a localização da fonte
     async function loadResourcesAsync() {
         await Promise.all([
             Font.loadAsync({
